@@ -1,7 +1,7 @@
 from example import app
 
 from time import sleep
-import datetime
+from datetime import datetime
 
 @app.route('/process')
 def process():
@@ -16,4 +16,4 @@ def time():
     """
     Gets the current time.
     """
-    return datetime.time()
+    return datetime.now().strftime('%d/%m/%y %H:%M')
