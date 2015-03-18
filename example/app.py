@@ -3,7 +3,7 @@ from example import app
 from time import sleep
 
 @app.route('/process')
-def process():
+def does_stuff():
     """
     Does a lot of processing.
     """
