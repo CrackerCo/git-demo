@@ -17,3 +17,7 @@ def process_efficiently():
     """
     sleep(2)
     return 'Efficient Processing Complete!'
+
+@app.route('/meaning-of-life')
+def meaning_of_life():
+    return 42 
