@@ -9,3 +9,11 @@ def process():
     """
     sleep(3)
     return 'Processing Complete!'
+
+@app.route('/process-efficiently')
+def process_efficiently():
+    """
+    Does a lot of processing, but more efficiently than process().
+    """
+    sleep(2)
+    return 'Efficient Processing Complete!'
